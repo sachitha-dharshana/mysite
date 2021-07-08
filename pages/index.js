@@ -18,6 +18,10 @@ export default function Home() {
         <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+          name="description"
+          content="Personal portfolio website of Sachitha Dharshana"
+        />
         <link rel="icon" href="/favicon.png" />
         <link
           rel="stylesheet"
