@@ -1,4 +1,6 @@
 import { React, useContext } from "react";
+import Image from "next/image";
+
 import MyContext from "./store/my-context";
 import styles from "./Projects.module.css";
 import Card from "./UI/Card";
@@ -17,7 +19,8 @@ const Projects = () => {
           {myCtx.projects.map((project) => (
             <Card className="project-card" key={project.id}>
               <div className="c-header">
-                <img alt={project.title} src={project.image} />
+                <Image alt={project.title} src={project.image} />
+                {/* <img alt={project.title} src={project.image} /> */}
               </div>
               <div className={styles["c-body"]}>
                 <h3>{project.title}</h3>
