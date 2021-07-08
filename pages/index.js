@@ -2,7 +2,7 @@ import LazyLoad from "react-lazyload";
 
 import Head from "next/head";
 import Navbar from "../components/Layout/Navbar";
-import Content from "../components/layout/Content";
+import Content from "../components/Layout/Content";
 import Intro from "../components/Intro";
 import About from "../components/About";
 import Projects from "../components/Projects";
