@@ -19,7 +19,12 @@ const Projects = () => {
           {myCtx.projects.map((project) => (
             <Card className="project-card" key={project.id}>
               <div className="c-header">
-                <Image alt={project.title} src={project.image} />
+                <Image
+                  alt={project.title}
+                  src={project.image}
+                  layout="fill"
+                  className="image"
+                />
                 {/* <img alt={project.title} src={project.image} /> */}
               </div>
               <div className={styles["c-body"]}>

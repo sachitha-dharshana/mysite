@@ -164,6 +164,21 @@ img {
   object-fit: contain;
 }
 
+.c-header {
+  width: 100%;
+}
+
+.c-header > div {
+  position: unset !important;
+}
+
+.c-header .image {
+  object-fit: contain;
+  width: 100% !important;
+  position: relative !important;
+  height: unset !important;
+}
+
 @media screen and (max-width: 991px) {
   h1 {
     font-size: 2.6857rem;
