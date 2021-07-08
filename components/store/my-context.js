@@ -4,7 +4,7 @@ const MyContext = React.createContext({
   projects: [
     {
       id: "1",
-      image: "/instagram-clone.png",
+      image: "/instagram-clone.PNG",
       title: "Instagram Clone",
       description:
         "A simple Instagram clone prototype created using React, Node.js, Next.js and Bootstrap. Ability to like a post and view number oflikes. View comments and tags. Few sample posts were hardcoded.",
@@ -12,7 +12,7 @@ const MyContext = React.createContext({
     },
     {
       id: "2",
-      image: "/todo-app.png",
+      image: "/todo-app.PNG",
       title: "Todo App",
       description:
         "A simple Todo App created using React, TypeScript, and TailwindCSS. Ability to add todos, mark todos as completed, delete todos and view todos.",
