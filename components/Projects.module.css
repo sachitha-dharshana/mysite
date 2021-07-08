@@ -1,0 +1,48 @@
+.projects {
+  padding-top: 120px;
+}
+
+.projects-wrapper {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 2.5em;
+}
+
+.projects-wrapper img {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.c-body,
+.c-footer {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.c-footer {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.badge {
+  color: rgb(255 255 255);
+  padding: 0.5rem 1rem;
+  background: rgb(138 43 226);
+  border-radius: 15px;
+  transition: all 0.5s ease 0s;
+  margin: 5px;
+  font-size: 0.75rem;
+}
+
+@media (min-width: 991px) {
+  .projects-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2.5em;
+  }
+}

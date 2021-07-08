@@ -1,0 +1,38 @@
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  position: relative;
+  z-index: 1;
+}
+
+.intro-content {
+  text-align: center;
+  padding: 50px 80px;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  margin-top: 45px;
+}
+
+.icon {
+  height: 64px;
+  width: 64px;
+}
+
+.icon > svg {
+  transition: 0.5s ease-in-out;
+}
+
+.icon:hover > svg {
+  fill: #05bbaa;
+}
+
+@media screen and (max-width: 991px) {
+  .intro-content {
+    padding: 50px 0;
+  }
+}
