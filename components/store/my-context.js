@@ -23,7 +23,7 @@ const MyContext = React.createContext({
     {
       id: "1",
       name: "HTML5",
-      value: 99,
+      value: 50,
     },
     {
       id: "2",
