@@ -18,7 +18,7 @@ const Projects = () => {
         <div className={styles["projects-wrapper"]}>
           {myCtx.projects.map((project) => (
             <Card className="project-card" key={project.id}>
-              <div className="c-header">
+              <div className="image-container c-header">
                 <Image
                   alt={project.title}
                   src={project.image}

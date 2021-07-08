@@ -23,7 +23,7 @@
 }
 
 .header-img {
-  padding: 20px 0;
+  padding: 30px;
   display: block;
   width: 100%;
   text-align: center;
@@ -31,9 +31,8 @@
 }
 
 .header-img img {
-  border: solid 8px #cbced8;
-  border-radius: 100%;
-  width: 75%;
+  border: solid 8px #cbced8 !important;
+  border-radius: 100% !important;
 }
 
 @media screen and (max-width: 991px) {

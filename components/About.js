@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "../components/UI/Button";
+import Image from "next/image";
 
 import styles from "./About.module.css";
 
@@ -13,8 +14,13 @@ const About = () => {
         </div>
         <div className="row">
           <div className="col-lg-6">
-            <div className={styles["about-image"]}>
-              <img alt="About image" src="/about-image.jpg" />
+            <div className={`image-container ${styles["about-image"]}`}>
+              <Image
+                alt="About image"
+                src="/about-image.jpg"
+                layout="fill"
+                className="image"
+              />
             </div>
           </div>
           <div className="col-lg-6">

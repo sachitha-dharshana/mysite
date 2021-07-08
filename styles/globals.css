@@ -164,15 +164,15 @@ img {
   object-fit: contain;
 }
 
-.c-header {
+.image-container {
   width: 100%;
 }
 
-.c-header > div {
+.image-container > div {
   position: unset !important;
 }
 
-.c-header .image {
+.image-container .image {
   object-fit: contain;
   width: 100% !important;
   position: relative !important;
