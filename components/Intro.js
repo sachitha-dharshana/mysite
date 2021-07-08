@@ -19,7 +19,11 @@ const Intro = () => {
             interactive with web animations.
           </p>
           <div className={styles.social}>
-            <a target="_blank" href="https://facebook.com/">
+            <a
+              aria-label="Facebook"
+              target="_blank"
+              href="https://facebook.com/"
+            >
               <div className={styles.icon}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -33,7 +37,11 @@ const Intro = () => {
                 </svg>
               </div>
             </a>
-            <a target="_blank" href="https://linkedin.com/">
+            <a
+              aria-label="LinkedIn"
+              target="_blank"
+              href="https://linkedin.com/"
+            >
               <div className={styles.icon}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -47,7 +55,7 @@ const Intro = () => {
                 </svg>
               </div>
             </a>
-            <a target="_blank" href="https://github.com/">
+            <a aria-label="GitHub" target="_blank" href="https://github.com/">
               <div className={styles.icon}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
