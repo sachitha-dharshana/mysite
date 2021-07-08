@@ -22,6 +22,7 @@ const Intro = () => {
             <a
               aria-label="Facebook"
               target="_blank"
+              rel="noreferrer"
               href="https://facebook.com/"
             >
               <div className={styles.icon}>
@@ -40,6 +41,7 @@ const Intro = () => {
             <a
               aria-label="LinkedIn"
               target="_blank"
+              rel="noreferrer"
               href="https://linkedin.com/"
             >
               <div className={styles.icon}>
@@ -55,7 +57,12 @@ const Intro = () => {
                 </svg>
               </div>
             </a>
-            <a aria-label="GitHub" target="_blank" href="https://github.com/">
+            <a
+              aria-label="GitHub"
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/"
+            >
               <div className={styles.icon}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
