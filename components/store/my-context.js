@@ -7,7 +7,7 @@ const MyContext = React.createContext({
       image: "/instagram-clone.PNG",
       title: "Instagram Clone",
       description:
-        "A simple Instagram clone prototype created using React, Node.js, Next.js and Bootstrap. Ability to like a post and view number oflikes. View comments and tags. Few sample posts were hardcoded.",
+        "A simple Instagram clone prototype created using React, Node.js, Next.js and Bootstrap. Ability to like a post and view number of likes. View comments and tags. Few sample posts were hardcoded.",
       tech: "HTML5, CSS3, JavaScript, ReactJS, NextJS, Bootstrap",
     },
     {
