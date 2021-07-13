@@ -1,10 +1,10 @@
 .not-found {
   padding: 30px;
-  height: 100vh;
 }
 
 .not-found-row {
   align-items: center;
+  height: 100vh;
 }
 
 .not-found h1 {
