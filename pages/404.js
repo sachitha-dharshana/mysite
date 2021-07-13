@@ -9,7 +9,7 @@ const NotFound = () => {
   return (
     <div className={styles["not-found"]}>
       <div className={`row ${styles["not-found-row"]}`}>
-        <div className="col-sm-6">
+        <div className="col-lg-6">
           <h1>Ooops...</h1>
           <h2>Page not found</h2>
           <p>
@@ -21,7 +21,7 @@ const NotFound = () => {
             </Link>
           </p>
         </div>
-        <div className="col-sm-6">
+        <div className="col-lg-6">
           <div className="image-container c-header">
             <Image
               alt="error illustration"
