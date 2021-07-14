@@ -7,7 +7,7 @@ const myState = {
   skills: [],
 };
 
-const ContextProvider = () => {
+const MyContextProvider = () => {
   const myContext = {
     projects: myState.projects,
     skills: myState.skills,
@@ -17,4 +17,4 @@ const ContextProvider = () => {
   );
 };
 
-export default ContextProvider;
+export default MyContextProvider;
