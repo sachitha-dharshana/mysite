@@ -37,38 +37,28 @@ const MyContext = React.createContext({
     },
     {
       id: "4",
+      name: "BootStrap",
+      value: 98,
+    },
+    {
+      id: "5",
       name: "React JS",
       value: 75,
     },
     {
-      id: "5",
-      name: "BootStrap",
-      value: 99,
-    },
-    {
       id: "6",
-      name: "Figma",
-      value: 65,
-    },
-    {
-      id: "7",
-      name: "PHP",
-      value: 50,
-    },
-    {
-      id: "8",
       name: "Next JS",
       value: 60,
     },
     {
-      id: "9",
-      name: "JIRA",
+      id: "7",
+      name: "Figma",
       value: 65,
     },
     {
-      id: "10",
+      id: "8",
       name: "GitHub",
-      value: 80,
+      value: 85,
     },
   ],
 });

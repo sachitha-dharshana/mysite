@@ -13,8 +13,8 @@ export default function Home() {
   return (
     <>
       <Intro />
-      <About />
       <Projects />
+      <About />
       <LazyLoad>
         <Skills />
       </LazyLoad>
