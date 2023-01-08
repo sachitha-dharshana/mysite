@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className={`image-container ${styles["header-img"]}`}>
           <Image
             alt="Sachitha Dharshana"
-            src="/profile-pic.png"
+            src="/passport.jpg"
             layout="fill"
             className="image"
           />
